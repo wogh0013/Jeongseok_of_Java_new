@@ -1,4 +1,4 @@
-package Chapter06.Ex1;
+package Chapter06;
 
 public class ConstructorTest {
     public static void main(String[] args) {
