@@ -14,15 +14,15 @@ public class VectorEx {
         System.out.println("=== After trimToSize() ===");
         print(v);
 
-        v.ensureCapacity(6);
+        v.ensureCapacity(6); //capacity가 6이상이 되도록 함
         System.out.println("=== After ensureCapacity(6) ===");
         print(v);
 
-        v.setSize(7);
+        v.setSize(7); //size가 7이 되게 함
         System.out.println("=== After setSize(7)");
         print(v);
 
-        v.clear();
+        v.clear(); //Vector에 저장된 모든 요소 제거
         System.out.println("=== After clear ===");
         print(v);
     }
